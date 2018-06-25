@@ -1,0 +1,21 @@
+.cols {
+  display: flex;
+
+  &-col {
+    &--left {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    &--right {
+      width: 100%;
+    }
+  }
+}
+
+.color-pallete {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 510px;
+  width: 100%;
+}

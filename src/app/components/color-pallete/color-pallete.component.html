@@ -1,0 +1,6 @@
+<h2>Pallete</h2>
+<div class="color-pallete-draggable"
+  *ngFor="let item of colorPalleteItems"
+  [style.background-color]="item.color"
+  [appDraggable]="{id: item.id, color: item.color}">
+</div>
